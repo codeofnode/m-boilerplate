@@ -1,0 +1,28 @@
+{
+  "name": "m-boilerplate",
+  "version": "0.0.0",
+  "description": "Modular boilerplate for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeofnode/m-boilerplate.git"
+  },
+  "keywords": [
+    "modular",
+    "boilerplate",
+    "nodejs",
+    "javascript",
+    "server",
+    "standard",
+    "allrounder"
+  ],
+  "author": "Ramesh Kumar <codeofnode@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/codeofnode/m-boilerplate/issues"
+  },
+  "homepage": "https://github.com/codeofnode/m-boilerplate#readme"
+}
