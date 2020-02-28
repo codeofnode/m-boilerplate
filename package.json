@@ -2,8 +2,9 @@
   "name": "m-boilerplate",
   "version": "0.0.0",
   "description": "Modular boilerplate for nodejs",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "start": "node lib/bin.js",
     "test": "npm test"
   },
   "repository": {
@@ -14,9 +15,7 @@
     "modular",
     "boilerplate",
     "nodejs",
-    "javascript",
-    "server",
-    "standard",
+    "mbjs",
     "allrounder"
   ],
   "author": "Ramesh Kumar <codeofnode@gmail.com>",
@@ -24,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/codeofnode/m-boilerplate/issues"
   },
-  "homepage": "https://github.com/codeofnode/m-boilerplate#readme"
+  "homepage": "https://github.com/codeofnode/m-boilerplate#readme",
+  "dependencies": {
+    "mbjs": "0.0.0"
+  },
+  "config": {
+    "bot": {
+      "name": "bot1"
+    }
+  }
 }
